@@ -8,7 +8,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let g:colors_name = "dank-neon"
+let g:colors_name = "dank-neon-darker"
 
 hi Cursor ctermfg=16 ctermbg=231 cterm=NONE guifg=#191b2a guibg=#eff0f6 gui=NONE
 hi Visual ctermfg=NONE ctermbg=61 cterm=NONE guifg=NONE guibg=#656fa4 gui=NONE
@@ -105,3 +105,42 @@ hi cssClassName ctermfg=85 ctermbg=NONE cterm=NONE guifg=#39ffba guibg=NONE gui=
 hi cssValueLength ctermfg=219 ctermbg=NONE cterm=NONE guifg=#f1b3f1 guibg=NONE gui=NONE
 hi cssCommonAttr ctermfg=228 ctermbg=NONE cterm=NONE guifg=#ffee7a guibg=NONE gui=NONE
 hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+
+
+hi Pmenu guibg=#000000 ctermbg=black blend=20
+" " hi Pmenu guibg=#000000 ctermbg=none blend=10
+hi PmenuSel blend=10
+
+" highlight Comment ctermfg=67 guifg=#555577
+hi Normal guibg=NONE ctermbg=NONE
+hi EndOfBuffer guibg=NONE ctermbg=NONE
+hi NonText ctermbg=NONE
+" highlight CursorLine term=underline cterm=underline ctermbg=NONE gui=underline guibg=NONE
+hi SignColumn cterm=NONE guibg=NONE
+hi LineNr ctermbg=NONE guibg=NONE
+hi foldcolumn guibg=bg guibg=NONE
+hi VertSplit ctermbg=NONE guibg=NONE guifg=NONE
+hi CursorLine   cterm=NONE ctermbg=black guibg=#111122
+
+hi Normal guibg=NONE ctermbg=NONE
+hi EndOfBuffer guibg=NONE ctermbg=NONE
+hi NonText ctermbg=NONE
+" highlight CursorLine term=underline cterm=underline ctermbg=NONE gui=underline guibg=NONE
+hi SignColumn cterm=NONE guibg=NONE
+hi LineNr ctermbg=NONE guibg=NONE
+hi foldcolumn guibg=bg guibg=NONE
+hi VertSplit ctermbg=NONE guibg=NONE guifg=NONE
+hi CursorLine   cterm=NONE ctermbg=black guibg=#111122
+hi CocErrorSign  ctermfg=Red guifg=#FF0000 blend=20 guibg=#500000
+hi CocHintSign  ctermfg=Red guifg=#15aabf
+hi CocWarningSign  ctermfg=Red guifg=#ff922b
+
+hi default link CocHintVirtualText CocHintSign
+hi default link CocErrorVirtualText  CocErrorSign
+hi default link CocWarningVirtualText CocWarningSign
+
+hi default link ClapMatches CocErrorSign
+hi default link ClapMatches1 Function
+hi default link ClapMatches2 Function
+hi ClapMatches2 ctermfg=Red guifg=#ff922b
+
