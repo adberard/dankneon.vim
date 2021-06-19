@@ -266,3 +266,5 @@ hi LeaderGuide ctermfg=85 ctermbg=NONE cterm=NONE guifg=#39ffba guibg=NONE gui=N
 hi LeaderGuideVisual ctermfg=85 ctermbg=NONE cterm=NONE guifg=#01f7f7 guibg=NONE gui=NONE
 hi LeaderGuideName ctermfg=85 ctermbg=NONE cterm=NONE guifg=#39ffba guibg=NONE gui=NONE
 hi LeaderGuidePrompt ctermfg=85 ctermbg=NONE cterm=NONE guifg=#39ffba guibg=NONE gui=NONE
+
+hi EndOfBuffer ctermfg=231 ctermbg=16 cterm=NONE guifg=#eff0f6 guibg=NONE gui=NONE
